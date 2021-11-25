@@ -21,7 +21,7 @@ import { DevModeService } from './dev-mode.service';
 import { NgxViewService } from './ngx-view.service';
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: 'any',
 })
 export class NgxTippyService {
   private tippyInstances: Map<string, NgxTippyInstance> = new Map();
